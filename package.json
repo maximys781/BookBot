@@ -16,5 +16,8 @@
     "telegraf": "^3.33.3",
     "typescript": "^3.8.3",
     "yarn": "^1.22.4"
-  }
+  },
+  "scripts": {
+    "deploy": "git add . && git commit -m 'fix' && git push heroku master"
+    }
 }
